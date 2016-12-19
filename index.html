@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Отправка файла</title>
+</head>
+<body>
+<form method=post action="/cgi-bin/form.py" enctype="multipart/form-data">
+    <h1>Текст в изображение:</h1>
+    <p>Загрузите фотографию:</p>
+    <p><input type="file" name="photo" multiple accept="image/*,image/png">
+    <p>Загрузите текстовый файл:</p>
+    <p><input type="file" name="text" multiple accept="text/*">
+    <p><strong>Пароль:</strong>
+    <input type="password" maxlength="25" size="40" name="password"></p>
+    <input type="submit" value="Отправить"></p>
+    <h1>Текст из изображения:</h1>
+    <p>Загрузите фотографию:</p>
+    <p><input type="file" name="photo1" multiple accept="image/*,image/png">
+    <p><strong>Пароль:</strong>
+    <input type="password" maxlength="25" size="40" name="password1"></p>
+    <input type="submit" value="Отправить"></p>
+</form>
+</body>
+</html>
