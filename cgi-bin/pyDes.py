@@ -3,7 +3,6 @@ import sys
 _pythonMajorVersion = sys.version_info[0]
 
 ECB = 0
-CBC = 1
 
 PAD_NORMAL = 1
 PAD_PKCS5 = 2
